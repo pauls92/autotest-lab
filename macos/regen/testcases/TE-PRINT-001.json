@@ -1,0 +1,96 @@
+{
+ "id": "TE-PRINT-001",
+ "intent": "TextEditで書類を作り、印刷シートで部数を3・向きを横に設定でき、キャンセルで閉じられること（印刷はしない）",
+ "app": "com.apple.TextEdit",
+ "steps": [
+  {
+   "no": 1,
+   "screen": "開始",
+   "action": "押す",
+   "target": "新規書類"
+  },
+  {
+   "no": 2,
+   "screen": "書類",
+   "action": "入力",
+   "target": "本文",
+   "value": "回帰テスト"
+  },
+  {
+   "no": 3,
+   "screen": "書類",
+   "action": "確認",
+   "target": "本文",
+   "expect": "回帰テスト"
+  },
+  {
+   "no": 4,
+   "screen": "書類",
+   "action": "キー",
+   "target": "印刷を開く",
+   "value": "cmd+p"
+  },
+  {
+   "no": 5,
+   "screen": "印刷シート",
+   "action": "入力",
+   "target": "部数",
+   "value": "3"
+  },
+  {
+   "no": 6,
+   "screen": "印刷シート",
+   "action": "確認",
+   "target": "部数",
+   "expect": "3"
+  },
+  {
+   "no": 7,
+   "screen": "印刷シート",
+   "action": "押す",
+   "target": "横向き"
+  },
+  {
+   "no": 8,
+   "screen": "印刷シート",
+   "action": "確認",
+   "target": "横向き",
+   "expect": "1"
+  },
+  {
+   "screen": "印刷シート",
+   "action": "確認",
+   "target": "縦向き",
+   "expect": "0",
+   "no": 9
+  },
+  {
+   "no": 10,
+   "screen": "印刷シート",
+   "action": "押す",
+   "target": "キャンセル"
+  },
+  {
+   "no": 11,
+   "screen": "書類",
+   "action": "確認",
+   "target": "印刷シート",
+   "expect": "閉じている"
+  },
+  {
+   "no": 12,
+   "screen": "書類",
+   "action": "押す",
+   "target": "閉じる"
+  },
+  {
+   "no": 13,
+   "screen": "保存の確認",
+   "action": "押す",
+   "target": "保存しない"
+  }
+ ],
+ "history": [
+  "v2: 横向きを押したら縦向きが外れること（反対側の確認）を追加。部品の取り違えを見抜くため"
+ ]
+}

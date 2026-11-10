@@ -1,0 +1,542 @@
+[
+ {
+  "depth": 0,
+  "role": "AXSheet",
+  "subrole": null,
+  "identifier": "_NS:273",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 1,
+  "role": "AXSplitGroup",
+  "subrole": null,
+  "identifier": "_NS:282",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 2,
+  "role": "AXScrollArea",
+  "subrole": null,
+  "identifier": "_NS:232",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 3,
+  "role": "AXList",
+  "subrole": "AXCollectionList",
+  "identifier": "_NS:236",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXList",
+  "subrole": "AXSectionList",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 5,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 6,
+  "role": "AXImage",
+  "subrole": null,
+  "identifier": null,
+  "title": null,
+  "description": "",
+  "value": null
+ },
+ {
+  "depth": 6,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": "ページ1 / 1"
+ },
+ {
+  "depth": 2,
+  "role": "AXSplitter",
+  "subrole": null,
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": "264.0"
+ },
+ {
+  "depth": 2,
+  "role": "AXScrollArea",
+  "subrole": null,
+  "identifier": "_NS:104",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 3,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": "_NS:12",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXTextField",
+  "subrole": null,
+  "identifier": "_NS:13",
+  "title": null,
+  "description": "部数",
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:77",
+  "title": null,
+  "description": null,
+  "value": "部数"
+ },
+ {
+  "depth": 4,
+  "role": "AXIncrementor",
+  "subrole": null,
+  "identifier": "_NS:8",
+  "title": null,
+  "description": "部数",
+  "value": "1.0"
+ },
+ {
+  "depth": 5,
+  "role": "AXButton",
+  "subrole": "AXIncrementArrow",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 5,
+  "role": "AXButton",
+  "subrole": "AXDecrementArrow",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:135",
+  "title": null,
+  "description": null,
+  "value": "ページ"
+ },
+ {
+  "depth": 4,
+  "role": "AXTextField",
+  "subrole": null,
+  "identifier": "_NS:125",
+  "title": null,
+  "description": null,
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:146",
+  "title": null,
+  "description": null,
+  "value": "終了"
+ },
+ {
+  "depth": 4,
+  "role": "AXTextField",
+  "subrole": null,
+  "identifier": "_NS:60",
+  "title": null,
+  "description": null,
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:51",
+  "title": null,
+  "description": null,
+  "value": ""
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:22",
+  "title": null,
+  "description": null,
+  "value": "サイドバーからページを選択してください"
+ },
+ {
+  "depth": 4,
+  "role": "AXRadioButton",
+  "subrole": null,
+  "identifier": "_NS:8",
+  "title": "全1ページ",
+  "description": null,
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXRadioButton",
+  "subrole": null,
+  "identifier": "_NS:117",
+  "title": "範囲: 開始",
+  "description": null,
+  "value": "0"
+ },
+ {
+  "depth": 4,
+  "role": "AXRadioButton",
+  "subrole": null,
+  "identifier": "_NS:42",
+  "title": "選択部分",
+  "description": null,
+  "value": "0"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:53",
+  "title": null,
+  "description": null,
+  "value": "用紙サイズ"
+ },
+ {
+  "depth": 4,
+  "role": "AXPopUpButton",
+  "subrole": null,
+  "identifier": "_NS:42",
+  "title": null,
+  "description": null,
+  "value": "A4  210 x 297 mm"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:32",
+  "title": null,
+  "description": null,
+  "value": "向き"
+ },
+ {
+  "depth": 4,
+  "role": "AXRadioButton",
+  "subrole": null,
+  "identifier": "_NS:22",
+  "title": " 縦",
+  "description": null,
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXRadioButton",
+  "subrole": null,
+  "identifier": "_NS:8",
+  "title": " 横",
+  "description": null,
+  "value": "0"
+ },
+ {
+  "depth": 3,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": "_NS:20",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXDisclosureTriangle",
+  "subrole": null,
+  "identifier": "_NS:13",
+  "title": null,
+  "description": null,
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:71",
+  "title": null,
+  "description": null,
+  "value": "テキストエディット"
+ },
+ {
+  "depth": 4,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": "_NS:22",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 5,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": "_NS:8",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 6,
+  "role": "AXCheckBox",
+  "subrole": null,
+  "identifier": "_NS:12",
+  "title": "ヘッダとフッタをプリント",
+  "description": null,
+  "value": "0"
+ },
+ {
+  "depth": 6,
+  "role": "AXCheckBox",
+  "subrole": null,
+  "identifier": "_NS:23",
+  "title": "内容を再度折り返してページに合わせる",
+  "description": null,
+  "value": "1"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:65",
+  "title": null,
+  "description": null,
+  "value": "レイアウト"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:74",
+  "title": null,
+  "description": null,
+  "value": "1ページ/枚"
+ },
+ {
+  "depth": 4,
+  "role": "AXDisclosureTriangle",
+  "subrole": null,
+  "identifier": "_NS:13",
+  "title": null,
+  "description": null,
+  "value": "0"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:59",
+  "title": null,
+  "description": null,
+  "value": "用紙処理"
+ },
+ {
+  "depth": 4,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:68",
+  "title": null,
+  "description": null,
+  "value": "丁合い • すべてのシート"
+ },
+ {
+  "depth": 4,
+  "role": "AXDisclosureTriangle",
+  "subrole": null,
+  "identifier": "_NS:17",
+  "title": null,
+  "description": null,
+  "value": "0"
+ },
+ {
+  "depth": 3,
+  "role": "AXScrollBar",
+  "subrole": null,
+  "identifier": "_NS:132",
+  "title": null,
+  "description": null,
+  "value": "0.0"
+ },
+ {
+  "depth": 4,
+  "role": "AXValueIndicator",
+  "subrole": null,
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": "0.0"
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": "AXIncrementArrow",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": "AXDecrementArrow",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": "AXIncrementPage",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": "AXDecrementPage",
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 2,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": "_NS:12",
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 3,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:81",
+  "title": null,
+  "description": null,
+  "value": "プリンタ"
+ },
+ {
+  "depth": 3,
+  "role": "AXPopUpButton",
+  "subrole": null,
+  "identifier": "_NS:70",
+  "title": null,
+  "description": null,
+  "value": "プリンタが選択されていません"
+ },
+ {
+  "depth": 3,
+  "role": "AXStaticText",
+  "subrole": null,
+  "identifier": "_NS:20",
+  "title": null,
+  "description": null,
+  "value": "プリセット"
+ },
+ {
+  "depth": 3,
+  "role": "AXPopUpButton",
+  "subrole": null,
+  "identifier": "_NS:8",
+  "title": null,
+  "description": null,
+  "value": "デフォルト設定"
+ },
+ {
+  "depth": 2,
+  "role": "AXButton",
+  "subrole": null,
+  "identifier": "_NS:8",
+  "title": "キャンセル",
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 2,
+  "role": "AXButton",
+  "subrole": null,
+  "identifier": "_NS:83",
+  "title": null,
+  "description": "ヘルプ",
+  "value": null
+ },
+ {
+  "depth": 2,
+  "role": "AXGroup",
+  "subrole": null,
+  "identifier": null,
+  "title": null,
+  "description": null,
+  "value": null
+ },
+ {
+  "depth": 3,
+  "role": "AXButton",
+  "subrole": "AXSegment",
+  "identifier": null,
+  "title": null,
+  "description": "PDF",
+  "value": null
+ },
+ {
+  "depth": 3,
+  "role": "AXMenuButton",
+  "subrole": "AXSegment",
+  "identifier": null,
+  "title": null,
+  "description": "PDF",
+  "value": null
+ },
+ {
+  "depth": 2,
+  "role": "AXButton",
+  "subrole": null,
+  "identifier": "_NS:50",
+  "title": "プリント",
+  "description": null,
+  "value": null
+ }
+]

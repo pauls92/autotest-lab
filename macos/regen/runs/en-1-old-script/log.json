@@ -1,0 +1,21 @@
+{
+ "testcase": "TE-PRINT-001",
+ "testcase_sha256": "f561bb72b3a99af76014a280d858fbcd5014c01821d9d831bd9959694ed781ee",
+ "script": "te_print_ja.py",
+ "script_sha256": "e1f36111acf7142c7415fe43d55a42979d13fc3709d839ea4830817b21efc3de",
+ "lang": "en",
+ "started": "2026-10-15T23:53:32",
+ "steps": [
+  {
+   "no": 1,
+   "screen": "開始",
+   "action": "押す",
+   "target": "新規書類",
+   "value": null,
+   "expect": null,
+   "result": "ERROR",
+   "error": "NotFound: [{'identifier': 'NewDocumentButton'}, {'role': 'AXMenuItem', 'title': '新規'}]"
+  }
+ ],
+ "result": "FAIL"
+}

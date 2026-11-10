@@ -1,0 +1,2753 @@
+{
+ "bundle": "com.brother.iprint-and-scan",
+ "screens": [
+  {
+   "name": "S01",
+   "title": "Brother iPrint&Scan",
+   "window_id": "TopViewController",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXStandardWindow",
+     "identifier": "TopViewController",
+     "label": "Brother iPrint&Scan",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": "_NS:110",
+     "label": "DCP-J577N",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGrid",
+     "subrole": null,
+     "identifier": "_NS:102",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXUnknown",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:179",
+     "label": "プリント",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:45",
+     "label": "",
+     "tile": false,
+     "value": "プリント"
+    },
+    {
+     "depth": 3,
+     "role": "AXUnknown",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:179",
+     "label": "スキャン",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:45",
+     "label": "",
+     "tile": false,
+     "value": "スキャン"
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:470",
+     "label": "DCP-J577N",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:12",
+     "label": "192.168.0.13",
+     "tile": true,
+     "value": "DCP-J577N"
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:38",
+     "label": "DCP-J577N",
+     "tile": true,
+     "value": "192.168.0.13"
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:48",
+     "label": "top status offline",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:72",
+     "label": "192.168.0.13",
+     "tile": true,
+     "value": "オフライン（利用できません）"
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:316",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:326",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:347",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:356",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:375",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:384",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:403",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:412",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:90",
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:126",
+     "label": "ワークフローを作成",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:134",
+     "label": "top add workflow",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "ScanKeySettingButton",
+     "label": "本体からのスキャン設定",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "SelectDeviceButton",
+     "label": "製品を選択",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXCloseButton",
+     "identifier": null,
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXZoomButton",
+     "identifier": null,
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXMinimizeButton",
+     "identifier": null,
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "オフライン（利用できません）",
+     "tile": true,
+     "value": "Brother iPrint&Scan"
+    }
+   ],
+   "skipped": [
+    {
+     "role": "AXButton",
+     "identifier": "_NS:126",
+     "label": "ワークフローを作成",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    },
+    {
+     "role": "AXButton",
+     "identifier": "ScanKeySettingButton",
+     "label": "本体からのスキャン設定",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    },
+    {
+     "role": "AXButton",
+     "identifier": "_NS:126",
+     "label": "ワークフローを作成",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    },
+    {
+     "role": "AXButton",
+     "identifier": "ScanKeySettingButton",
+     "label": "本体からのスキャン設定",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    }
+   ]
+  },
+  {
+   "name": "S02",
+   "title": "プリント",
+   "window_id": "_NS:6",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXDialog",
+     "identifier": "_NS:6",
+     "label": "プリント",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:20",
+     "label": "プリント",
+     "tile": true,
+     "value": "印刷するファイルを選択してください"
+    },
+    {
+     "depth": 1,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": "_NS:34",
+     "label": "印刷するファイルを選択してください",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGrid",
+     "subrole": null,
+     "identifier": "_NS:8",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXUnknown",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:61",
+     "label": "写真",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:68",
+     "label": "print photo",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXUnknown",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:61",
+     "label": "PDF",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:68",
+     "label": "print document",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXCloseButton",
+     "identifier": null,
+     "label": "印刷するファイルを選択してください",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXZoomButton",
+     "identifier": null,
+     "label": "印刷するファイルを選択してください",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXMinimizeButton",
+     "identifier": null,
+     "label": "印刷するファイルを選択してください",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "印刷するファイルを選択してください",
+     "tile": true,
+     "value": "プリント"
+    }
+   ],
+   "skipped": []
+  },
+  {
+   "name": "S03",
+   "title": "開く",
+   "window_id": "open-panel",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXDialog",
+     "identifier": "open-panel",
+     "label": "開く",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXSplitGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": "_NS:61",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXOutline",
+     "subrole": null,
+     "identifier": "_NS:8",
+     "label": "サイドバー",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "最近の項目"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "時計",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "共有"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "共有フォルダ",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "xSidebarHeader",
+     "label": "",
+     "tile": false,
+     "value": "よく使う項目"
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "アプリケーション"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "アプリケーション",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "デスクトップ"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "デスクトップ",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "書類"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "書類",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "ダウンロード"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "丸下矢印",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "xSidebarHeader",
+     "label": "",
+     "tile": false,
+     "value": "場所"
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "iCloud Drive"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "iCloud",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "kuni"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "ホーム",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "Macintosh HD"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "Macintosh HD",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "xSidebarHeader",
+     "label": "",
+     "tile": false,
+     "value": "タグ"
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "レッド"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "レッド",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "オレンジ"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "オレンジ",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "イエロー"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "イエロー",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "グリーン"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "グリーン",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "ブルー"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "ブルー",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "パープル"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "パープル",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "グレイ"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "グレイ",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "すべてのタグ…"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "すべてのタグ…",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "xSidebarHeader",
+     "label": "",
+     "tile": false,
+     "value": "メディア"
+    },
+    {
+     "depth": 4,
+     "role": "AXRow",
+     "subrole": "AXOutlineRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "写真"
+    },
+    {
+     "depth": 6,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": null,
+     "label": "写真",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXColumn",
+     "subrole": null,
+     "identifier": "AutomaticTableColumnIdentifier.0",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXScrollBar",
+     "subrole": null,
+     "identifier": "_NS:70",
+     "label": "",
+     "tile": false,
+     "value": "0.0"
+    },
+    {
+     "depth": 4,
+     "role": "AXValueIndicator",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "0.0"
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": "AXIncrementArrow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": "AXDecrementArrow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": "AXIncrementPage",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXButton",
+     "subrole": "AXDecrementPage",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXSplitter",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "179.0"
+    },
+    {
+     "depth": 2,
+     "role": "AXSplitGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXBrowser",
+     "subrole": null,
+     "identifier": "ColumnView",
+     "label": "カラム表示",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXList",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 6,
+     "role": "AXScrollBar",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "0.0"
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": "_NS:16",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXButton",
+     "subrole": "AXSegment",
+     "identifier": null,
+     "label": "戻る",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXButton",
+     "subrole": "AXSegment",
+     "identifier": null,
+     "label": "進む",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXMenuButton",
+     "subrole": null,
+     "identifier": "View Options",
+     "label": "カラム表示",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXMenuButton",
+     "subrole": null,
+     "identifier": "Group or Sort By",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "where popup",
+     "label": "場所:",
+     "tile": false,
+     "value": "書類"
+    },
+    {
+     "depth": 2,
+     "role": "AXTextField",
+     "subrole": "AXSearchField",
+     "identifier": "Search",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": null,
+     "label": "検索",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "CancelButton",
+     "label": "キャンセル",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "OKButton",
+     "label": "開く",
+     "tile": false,
+     "value": null
+    }
+   ],
+   "skipped": []
+  },
+  {
+   "name": "S04",
+   "title": "Brother iPrint&Scan",
+   "window_id": "TopViewController",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXStandardWindow",
+     "identifier": "TopViewController",
+     "label": "Brother iPrint&Scan",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:105",
+     "label": "スキャンしたい原稿を原稿台ガラスもしくは自動原稿送り装置にセットしてください",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "スキャン",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:69",
+     "label": "guidance scan image",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:65",
+     "label": "スキャン設定",
+     "tile": true,
+     "value": "スキャンしたい原稿を原稿台ガラスもしくは自動原稿送り装置にセットしてください"
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:226",
+     "label": "スキャンしたい原稿を原稿台ガラスもしくは自動原稿送り装置にセットしてください",
+     "tile": true,
+     "value": "スキャン設定: "
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:20",
+     "label": "setting size",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:155",
+     "label": "スキャン設定",
+     "tile": true,
+     "value": "原稿サイズ: "
+    },
+    {
+     "depth": 1,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "_NS:145",
+     "label": "原稿サイズ",
+     "tile": true,
+     "value": "A4"
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:45",
+     "label": "setting colorscan",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:178",
+     "label": "原稿サイズ",
+     "tile": true,
+     "value": "カラー設定: "
+    },
+    {
+     "depth": 1,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "_NS:169",
+     "label": "カラー設定",
+     "tile": true,
+     "value": "1677万色カラー"
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:55",
+     "label": "setting resolution 300400",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:200",
+     "label": "カラー設定",
+     "tile": true,
+     "value": "解像度: "
+    },
+    {
+     "depth": 1,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "_NS:191",
+     "label": "解像度",
+     "tile": true,
+     "value": "300 x 300 dpi"
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:8",
+     "label": "すべての設定",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:110",
+     "label": "解像度",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "解像度",
+     "tile": true,
+     "value": "DCP-J577N"
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:26",
+     "label": "DCP-J577N",
+     "tile": true,
+     "value": "192.168.0.13"
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:92",
+     "label": "スキャン",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXCloseButton",
+     "identifier": null,
+     "label": "192.168.0.13",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXZoomButton",
+     "identifier": null,
+     "label": "192.168.0.13",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXMinimizeButton",
+     "identifier": null,
+     "label": "192.168.0.13",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "192.168.0.13",
+     "tile": true,
+     "value": "Brother iPrint&Scan"
+    }
+   ],
+   "skipped": [
+    {
+     "role": "AXButton",
+     "identifier": "_NS:10",
+     "label": "スキャン",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    },
+    {
+     "role": "AXPopUpButton",
+     "identifier": "_NS:145",
+     "label": "原稿サイズ",
+     "index": 0,
+     "tile": true,
+     "reason": "ポップアップ"
+    },
+    {
+     "role": "AXPopUpButton",
+     "identifier": "_NS:169",
+     "label": "カラー設定",
+     "index": 0,
+     "tile": true,
+     "reason": "ポップアップ"
+    },
+    {
+     "role": "AXPopUpButton",
+     "identifier": "_NS:191",
+     "label": "解像度",
+     "index": 0,
+     "tile": true,
+     "reason": "ポップアップ"
+    },
+    {
+     "role": "AXButton",
+     "identifier": "_NS:92",
+     "label": "スキャン",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    }
+   ]
+  },
+  {
+   "name": "S05",
+   "title": "すべての設定",
+   "window_id": "_NS:6",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXDialog",
+     "identifier": "_NS:6",
+     "label": "すべての設定",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "すべての設定",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXTable",
+     "subrole": null,
+     "identifier": "_NS:16",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "",
+     "tile": false,
+     "value": "基本設定"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "",
+     "tile": false,
+     "value": "原稿補正"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "",
+     "tile": false,
+     "value": "画像調整"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "",
+     "tile": false,
+     "value": "モノクロ画質調整"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "",
+     "tile": false,
+     "value": "搬送制御"
+    },
+    {
+     "depth": 3,
+     "role": "AXColumn",
+     "subrole": null,
+     "identifier": "CategoryTableColumn",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:82",
+     "label": "OK",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": "_NS:135",
+     "label": "すべての設定",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:34",
+     "label": "カラー設定",
+     "tile": true,
+     "value": "原稿サイズ: "
+    },
+    {
+     "depth": 2,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:61",
+     "label": "原稿サイズ",
+     "tile": true,
+     "value": "カラー設定: "
+    },
+    {
+     "depth": 2,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:76",
+     "label": "カラー設定",
+     "tile": true,
+     "value": "解像度: "
+    },
+    {
+     "depth": 2,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "_NS:51",
+     "label": "解像度",
+     "tile": true,
+     "value": "1677万色カラー"
+    },
+    {
+     "depth": 2,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "_NS:66",
+     "label": "解像度",
+     "tile": true,
+     "value": "300 x 300 dpi"
+    },
+    {
+     "depth": 2,
+     "role": "AXPopUpButton",
+     "subrole": null,
+     "identifier": "_NS:8",
+     "label": "解像度",
+     "tile": true,
+     "value": "A4"
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:92",
+     "label": "標準に戻す",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:73",
+     "label": "キャンセル",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXCloseButton",
+     "identifier": null,
+     "label": "すべての設定",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXZoomButton",
+     "identifier": null,
+     "label": "すべての設定",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXMinimizeButton",
+     "identifier": null,
+     "label": "すべての設定",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "すべての設定"
+    }
+   ],
+   "skipped": [
+    {
+     "role": "AXButton",
+     "identifier": "_NS:82",
+     "label": "OK",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    },
+    {
+     "role": "AXPopUpButton",
+     "identifier": "_NS:51",
+     "label": "解像度",
+     "index": 0,
+     "tile": true,
+     "reason": "ポップアップ"
+    },
+    {
+     "role": "AXPopUpButton",
+     "identifier": "_NS:66",
+     "label": "解像度",
+     "index": 0,
+     "tile": true,
+     "reason": "ポップアップ"
+    },
+    {
+     "role": "AXPopUpButton",
+     "identifier": "_NS:8",
+     "label": "解像度",
+     "index": 0,
+     "tile": true,
+     "reason": "ポップアップ"
+    },
+    {
+     "role": "AXButton",
+     "identifier": "_NS:92",
+     "label": "標準に戻す",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    }
+   ]
+  },
+  {
+   "name": "S06",
+   "title": "Brother iPrint&Scan",
+   "window_id": "TopViewController",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXStandardWindow",
+     "identifier": "TopViewController",
+     "label": "Brother iPrint&Scan",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:105",
+     "label": "Brother iPrint&Scan",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "アプリケーション設定",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXScrollArea",
+     "subrole": null,
+     "identifier": "_NS:10",
+     "label": "Brother iPrint&Scan",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXTable",
+     "subrole": null,
+     "identifier": "_NS:16",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:9",
+     "label": "",
+     "tile": false,
+     "value": "ヘルプ"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:9",
+     "label": "",
+     "tile": false,
+     "value": "アカウント設定"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:9",
+     "label": "",
+     "tile": false,
+     "value": "ワークフロー管理"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:9",
+     "label": "",
+     "tile": false,
+     "value": "製品情報"
+    },
+    {
+     "depth": 3,
+     "role": "AXRow",
+     "subrole": "AXTableRow",
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 4,
+     "role": "AXCell",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 5,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:9",
+     "label": "",
+     "tile": false,
+     "value": "本体からのスキャン設定"
+    },
+    {
+     "depth": 3,
+     "role": "AXColumn",
+     "subrole": null,
+     "identifier": "AutomaticTableColumnIdentifier.0",
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": "_NS:37",
+     "label": "Brother iPrint&Scan",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:19",
+     "label": "",
+     "tile": false,
+     "value": "機能のご紹介: "
+    },
+    {
+     "depth": 2,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:8",
+     "label": "ガイダンスを開く",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXCloseButton",
+     "identifier": null,
+     "label": "Brother iPrint&Scan",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXZoomButton",
+     "identifier": null,
+     "label": "Brother iPrint&Scan",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXMinimizeButton",
+     "identifier": null,
+     "label": "Brother iPrint&Scan",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "Brother iPrint&Scan"
+    }
+   ],
+   "skipped": [
+    {
+     "role": "AXButton",
+     "identifier": "_NS:8",
+     "label": "ガイダンスを開く",
+     "index": 0,
+     "tile": false,
+     "reason": "禁止語"
+    }
+   ]
+  },
+  {
+   "name": "S07",
+   "title": "製品選択",
+   "window_id": "_NS:6",
+   "elements": [
+    {
+     "depth": 0,
+     "role": "AXWindow",
+     "subrole": "AXDialog",
+     "identifier": "_NS:6",
+     "label": "製品選択",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXTabGroup",
+     "subrole": null,
+     "identifier": "_NS:41",
+     "label": "製品選択",
+     "tile": true,
+     "value": "<AXUIElement 0xc38e4a250> {pid=13289}"
+    },
+    {
+     "depth": 2,
+     "role": "AXRadioButton",
+     "subrole": "AXTabButton",
+     "identifier": null,
+     "label": "ネットワーク",
+     "tile": false,
+     "value": "1"
+    },
+    {
+     "depth": 2,
+     "role": "AXRadioButton",
+     "subrole": "AXTabButton",
+     "identifier": null,
+     "label": "USB",
+     "tile": false,
+     "value": "0"
+    },
+    {
+     "depth": 2,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:109",
+     "label": "以下の状態であることを確認してください:\n-製品はネットワークに接続されていますか\n-製品の電源は入っていますか\n-デバイスのローカルネットワーク設定を許可していますか\n下記のボタンから設定を確認してください。",
+     "tile": true,
+     "value": "対応する製品が見つかりません"
+    },
+    {
+     "depth": 2,
+     "role": "AXImage",
+     "subrole": null,
+     "identifier": "_NS:79",
+     "label": "deviceselect no device lan",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": "_NS:98",
+     "label": "対応する製品が見つかりません",
+     "tile": true,
+     "value": "以下の状態であることを確認してください:\n-製品はネットワークに接続されていますか\n-製品の電源は入っていますか\n-デバ"
+    },
+    {
+     "depth": 2,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:116",
+     "label": "ローカルネットワーク",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:18",
+     "label": "OK",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:8",
+     "label": "キャンセル",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:51",
+     "label": "製品選択",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": null,
+     "identifier": "_NS:36",
+     "label": "製品を再検索",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXCloseButton",
+     "identifier": null,
+     "label": "製品選択",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXZoomButton",
+     "identifier": null,
+     "label": "製品選択",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 2,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 3,
+     "role": "AXGroup",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXButton",
+     "subrole": "AXMinimizeButton",
+     "identifier": null,
+     "label": "製品選択",
+     "tile": true,
+     "value": null
+    },
+    {
+     "depth": 1,
+     "role": "AXStaticText",
+     "subrole": null,
+     "identifier": null,
+     "label": "",
+     "tile": false,
+     "value": "製品選択"
+    }
+   ],
+   "skipped": []
+  }
+ ],
+ "transitions": [
+  {
+   "from": "S01",
+   "via": "AXButton id=_NS:179 label='プリント'#0",
+   "to": "S02",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:179",
+    "label": "プリント",
+    "index": 0,
+    "tile": true
+   }
+  },
+  {
+   "from": "S02",
+   "via": "AXButton id=_NS:61 label='写真'#0",
+   "to": "S03",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:61",
+    "label": "写真",
+    "index": 0,
+    "tile": false
+   }
+  },
+  {
+   "from": "S02",
+   "via": "AXButton id=_NS:61 label='PDF'#0",
+   "to": "S03",
+   "note": "既知の画面へ",
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:61",
+    "label": "PDF",
+    "index": 0,
+    "tile": false
+   }
+  },
+  {
+   "from": "S01",
+   "via": "AXButton id=_NS:179 label='スキャン'#0",
+   "to": "S04",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:179",
+    "label": "スキャン",
+    "index": 0,
+    "tile": true
+   }
+  },
+  {
+   "from": "S04",
+   "via": "AXButton id=_NS:105 label='スキャンしたい原稿を原稿台ガラスもしくは自動原稿送り装置にセットしてください'#0",
+   "to": "S01",
+   "note": "既知の画面へ",
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:105",
+    "label": "スキャンしたい原稿を原稿台ガラスもしくは自動原稿送り装置にセットしてください",
+    "index": 0,
+    "tile": true
+   }
+  },
+  {
+   "from": "S04",
+   "via": "AXButton id=_NS:8 label='すべての設定'#0",
+   "to": "S05",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:8",
+    "label": "すべての設定",
+    "index": 0,
+    "tile": false
+   }
+  },
+  {
+   "from": "S05",
+   "via": "AXButton id=_NS:73 label='キャンセル'#0",
+   "to": "S04",
+   "note": "既知の画面へ",
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:73",
+    "label": "キャンセル",
+    "index": 0,
+    "tile": false
+   }
+  },
+  {
+   "from": "S01",
+   "via": "AXButton id=_NS:90 label='オフライン（利用できません）'#0",
+   "to": "S06",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:90",
+    "label": "オフライン（利用できません）",
+    "index": 0,
+    "tile": true
+   }
+  },
+  {
+   "from": "S06",
+   "via": "AXButton id=_NS:105 label='Brother iPrint&Scan'#0",
+   "to": "ee5014e7",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "_NS:105",
+    "label": "Brother iPrint&Scan",
+    "index": 0,
+    "tile": true
+   }
+  },
+  {
+   "from": "S01",
+   "via": "AXButton id=SelectDeviceButton label='製品を選択'#0",
+   "to": "S07",
+   "note": null,
+   "loc": {
+    "role": "AXButton",
+    "identifier": "SelectDeviceButton",
+    "label": "製品を選択",
+    "index": 0,
+    "tile": false
+   }
+  },
+  {
+   "from": "S06",
+   "via": "AXButton id=_NS:10 label='アプリケーション設定'#0",
+   "to": "S06",
+   "note": "変化なし"
+  }
+ ]
+}

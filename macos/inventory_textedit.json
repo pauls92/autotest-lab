@@ -1,0 +1,8312 @@
+[
+ {
+  "depth": 0,
+  "role": "AXApplication",
+  "subrole": null,
+  "title": "テキストエディット",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": null,
+  "size": null
+ },
+ {
+  "depth": 1,
+  "role": "AXWindow",
+  "subrole": "AXStandardWindow",
+  "title": "開く",
+  "identifier": "open-panel",
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   295.0,
+   152.0
+  ],
+  "size": [
+   880.0,
+   448.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXSplitGroup",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   295.0,
+   152.0
+  ],
+  "size": [
+   880.0,
+   448.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXScrollArea",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:61",
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   160.0
+  ],
+  "size": [
+   171.0,
+   432.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXOutline",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:8",
+  "description": "サイドバー",
+  "value": null,
+  "enabled": true,
+  "position": [
+   302.0,
+   159.0
+  ],
+  "size": [
+   173.0,
+   854.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   170.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   170.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "テキストエディット",
+  "enabled": true,
+  "position": [
+   348.0,
+   177.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "移動",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.5,
+   181.0
+  ],
+  "size": [
+   25.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   202.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   202.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "最近の項目",
+  "enabled": true,
+  "position": [
+   348.0,
+   209.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "時計",
+  "value": null,
+  "enabled": true,
+  "position": [
+   321.0,
+   213.0
+  ],
+  "size": [
+   22.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   234.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   234.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "共有",
+  "enabled": true,
+  "position": [
+   348.0,
+   241.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "共有フォルダ",
+  "value": null,
+  "enabled": true,
+  "position": [
+   318.0,
+   245.0
+  ],
+  "size": [
+   25.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   279.0
+  ],
+  "size": [
+   171.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   279.0
+  ],
+  "size": [
+   151.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": "xSidebarHeader",
+  "description": null,
+  "value": "よく使う項目",
+  "enabled": true,
+  "position": [
+   318.0,
+   278.0
+  ],
+  "size": [
+   153.0,
+   21.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   298.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   298.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "アプリケーション",
+  "enabled": true,
+  "position": [
+   348.0,
+   305.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   320.5,
+   309.0
+  ],
+  "size": [
+   22.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   330.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   330.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "デスクトップ",
+  "enabled": true,
+  "position": [
+   348.0,
+   337.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   341.0
+  ],
+  "size": [
+   25.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   362.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   362.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "書類",
+  "enabled": true,
+  "position": [
+   348.0,
+   369.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "書類",
+  "value": null,
+  "enabled": true,
+  "position": [
+   322.0,
+   373.0
+  ],
+  "size": [
+   20.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   394.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   394.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "ダウンロード",
+  "enabled": true,
+  "position": [
+   348.0,
+   401.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "丸下矢印",
+  "value": null,
+  "enabled": true,
+  "position": [
+   321.0,
+   405.0
+  ],
+  "size": [
+   22.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   439.0
+  ],
+  "size": [
+   171.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   439.0
+  ],
+  "size": [
+   151.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": "xSidebarHeader",
+  "description": null,
+  "value": "場所",
+  "enabled": true,
+  "position": [
+   318.0,
+   438.0
+  ],
+  "size": [
+   153.0,
+   21.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   458.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   458.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "iCloud Drive",
+  "enabled": true,
+  "position": [
+   348.0,
+   465.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "iCloud",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   469.0
+  ],
+  "size": [
+   26.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   490.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   490.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "kuni",
+  "enabled": true,
+  "position": [
+   348.0,
+   497.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "ホーム",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   501.0
+  ],
+  "size": [
+   26.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   522.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   522.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "Macintosh HD",
+  "enabled": true,
+  "position": [
+   348.0,
+   529.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   533.0
+  ],
+  "size": [
+   25.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   554.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   554.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "Claude",
+  "enabled": true,
+  "position": [
+   348.0,
+   561.0
+  ],
+  "size": [
+   90.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   565.0
+  ],
+  "size": [
+   25.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXButton",
+  "subrole": null,
+  "title": "取り出す",
+  "identifier": null,
+  "description": "取り出す",
+  "value": null,
+  "enabled": true,
+  "position": [
+   440.0,
+   565.0
+  ],
+  "size": [
+   14.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   599.0
+  ],
+  "size": [
+   171.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   599.0
+  ],
+  "size": [
+   151.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": "xSidebarHeader",
+  "description": null,
+  "value": "タグ",
+  "enabled": true,
+  "position": [
+   318.0,
+   598.0
+  ],
+  "size": [
+   153.0,
+   21.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   618.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   618.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "レッド",
+  "enabled": true,
+  "position": [
+   348.0,
+   625.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   629.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   650.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   650.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "オレンジ",
+  "enabled": true,
+  "position": [
+   348.0,
+   657.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   661.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   682.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   682.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "イエロー",
+  "enabled": true,
+  "position": [
+   348.0,
+   689.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   693.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   714.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   714.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "グリーン",
+  "enabled": true,
+  "position": [
+   348.0,
+   721.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   725.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   746.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   746.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "ブルー",
+  "enabled": true,
+  "position": [
+   348.0,
+   753.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   757.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   778.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   778.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "パープル",
+  "enabled": true,
+  "position": [
+   348.0,
+   785.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   789.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   810.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   810.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "グレイ",
+  "enabled": true,
+  "position": [
+   348.0,
+   817.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   821.0
+  ],
+  "size": [
+   18.0,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   842.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   842.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "すべてのタグ…",
+  "enabled": true,
+  "position": [
+   348.0,
+   849.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   853.0
+  ],
+  "size": [
+   17.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   887.0
+  ],
+  "size": [
+   171.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   887.0
+  ],
+  "size": [
+   151.0,
+   19.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": "xSidebarHeader",
+  "description": null,
+  "value": "メディア",
+  "enabled": true,
+  "position": [
+   318.0,
+   886.0
+  ],
+  "size": [
+   153.0,
+   21.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   906.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   906.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "ミュージック",
+  "enabled": true,
+  "position": [
+   348.0,
+   913.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   323.0,
+   919.5
+  ],
+  "size": [
+   18.0,
+   6.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   938.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   938.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "写真",
+  "enabled": true,
+  "position": [
+   348.0,
+   945.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "写真",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   949.0
+  ],
+  "size": [
+   25.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXRow",
+  "subrole": "AXOutlineRow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   303.0,
+   970.0
+  ],
+  "size": [
+   171.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXCell",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   313.0,
+   970.0
+  ],
+  "size": [
+   151.0,
+   32.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXStaticText",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": "ムービー",
+  "enabled": true,
+  "position": [
+   348.0,
+   977.0
+  ],
+  "size": [
+   109.0,
+   18.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXImage",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": "ムービー",
+  "value": null,
+  "enabled": true,
+  "position": [
+   319.0,
+   981.0
+  ],
+  "size": [
+   25.5,
+   11.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXColumn",
+  "subrole": null,
+  "title": null,
+  "identifier": "AutomaticTableColumnIdentifier.0",
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   313.0,
+   160.0
+  ],
+  "size": [
+   151.0,
+   852.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXScrollBar",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:70",
+  "description": null,
+  "value": 0.0,
+  "enabled": true,
+  "position": [
+   456.0,
+   159.0
+  ],
+  "size": [
+   19.0,
+   434.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXValueIndicator",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": 0.0,
+  "enabled": null,
+  "position": [
+   465.0,
+   163.0
+  ],
+  "size": [
+   6.0,
+   216.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXButton",
+  "subrole": "AXIncrementArrow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   457.0,
+   160.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXButton",
+  "subrole": "AXDecrementArrow",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   457.0,
+   160.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXButton",
+  "subrole": "AXIncrementPage",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   465.0,
+   379.0
+  ],
+  "size": [
+   6.0,
+   210.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXButton",
+  "subrole": "AXDecrementPage",
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   465.0,
+   163.0
+  ],
+  "size": [
+   6.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXSplitter",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": 179.0,
+  "enabled": false,
+  "position": [
+   474.0,
+   152.0
+  ],
+  "size": [
+   0.0,
+   448.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXSplitGroup",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   295.0,
+   217.0
+  ],
+  "size": [
+   880.0,
+   318.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXBrowser",
+  "subrole": null,
+  "title": null,
+  "identifier": "ColumnView",
+  "description": "カラム表示",
+  "value": null,
+  "enabled": true,
+  "position": [
+   294.0,
+   216.0
+  ],
+  "size": [
+   882.0,
+   320.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXScrollArea",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   474.0,
+   217.0
+  ],
+  "size": [
+   701.0,
+   318.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXScrollArea",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": null,
+  "position": [
+   474.0,
+   217.0
+  ],
+  "size": [
+   245.0,
+   318.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXList",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   473.0,
+   216.0
+  ],
+  "size": [
+   246.0,
+   320.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXScrollBar",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": 0.0,
+  "enabled": false,
+  "position": [
+   700.0,
+   216.0
+  ],
+  "size": [
+   19.0,
+   320.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXGroup",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:16",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   493.0,
+   171.0
+  ],
+  "size": [
+   49.0,
+   26.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": "AXSegment",
+  "title": null,
+  "identifier": null,
+  "description": "戻る",
+  "value": null,
+  "enabled": false,
+  "position": [
+   494.0,
+   172.0
+  ],
+  "size": [
+   23.0,
+   24.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": "AXSegment",
+  "title": null,
+  "identifier": null,
+  "description": "進む",
+  "value": null,
+  "enabled": false,
+  "position": [
+   518.0,
+   172.0
+  ],
+  "size": [
+   23.0,
+   24.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenuButton",
+  "subrole": null,
+  "title": "",
+  "identifier": "View Options",
+  "description": "カラム表示",
+  "value": null,
+  "enabled": true,
+  "position": [
+   548.0,
+   171.0
+  ],
+  "size": [
+   69.0,
+   26.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenuButton",
+  "subrole": null,
+  "title": "",
+  "identifier": "Group or Sort By",
+  "description": "",
+  "value": null,
+  "enabled": true,
+  "position": [
+   623.0,
+   171.0
+  ],
+  "size": [
+   66.5,
+   26.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXPopUpButton",
+  "subrole": null,
+  "title": "場所:",
+  "identifier": "where popup",
+  "description": null,
+  "value": "⁨テキストエディット⁩ — iCloud",
+  "enabled": true,
+  "position": [
+   708.5,
+   171.0
+  ],
+  "size": [
+   232.0,
+   26.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXTextField",
+  "subrole": "AXSearchField",
+  "title": null,
+  "identifier": "Search",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   959.5,
+   171.0
+  ],
+  "size": [
+   196.5,
+   26.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXButton",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": "検索",
+  "value": null,
+  "enabled": true,
+  "position": [
+   966.5,
+   180.0
+  ],
+  "size": [
+   15.5,
+   9.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXButton",
+  "subrole": null,
+  "title": "新規書類",
+  "identifier": "NewDocumentButton",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   493.0,
+   555.0
+  ],
+  "size": [
+   74.5,
+   26.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXButton",
+  "subrole": null,
+  "title": "オプションを表示",
+  "identifier": "OptionsButton",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   573.5,
+   555.0
+  ],
+  "size": [
+   142.5,
+   26.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXButton",
+  "subrole": null,
+  "title": "キャンセル",
+  "identifier": "CancelButton",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   961.0,
+   555.0
+  ],
+  "size": [
+   94.5,
+   26.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXButton",
+  "subrole": null,
+  "title": "開く",
+  "identifier": "OKButton",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   1061.5,
+   555.0
+  ],
+  "size": [
+   94.5,
+   26.0
+  ]
+ },
+ {
+  "depth": 1,
+  "role": "AXMenuBar",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:833",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   0.0
+  ],
+  "size": [
+   1470.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "Apple",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   10.0,
+   0.0
+  ],
+  "size": [
+   34.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "このMacについて",
+  "identifier": "_aboutThisMacRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "システム情報",
+  "identifier": "_systemInformationRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "システム設定…",
+  "identifier": "_systemSettingsRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "App Store",
+  "identifier": "_appStoreRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "最近使った項目",
+  "identifier": "_recentsRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "アプリケーション",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "Claude",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“Claude”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "iPhoneミラーリング",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“iPhoneミラーリング”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "Keynote",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“Keynote”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "Safari",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“Safari”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "TV",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“TV”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "システム設定",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“システム設定”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストエディット",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“テキストエディット”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ヒント",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“ヒント”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "メッセージ",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“メッセージ”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "連絡先",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“連絡先”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "書類",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "2608150q1zYPtSuiuTTwbBKA.jpg",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“2608150q1zYPtSuiuTTwbBKA.jpg”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "applicot_gui_automation_opinion.html",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“applicot_gui_automation_opinion.html”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "RPK0401-001_20240309200956066.pdf",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“RPK0401-001_20240309200956066.pdf”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スクリーンショット 2023-11-17 8.45.54.pdf",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“スクリーンショット 2023-11-17 8.45.54.pdf”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スクリーンショット 2024-11-30 12.34.39.pdf",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“スクリーンショット 2024-11-30 12.34.39.pdf”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スクリーンショット 2025-02-20 15.23.05.pdf",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "“スクリーンショット 2025-02-20 15.23.05.pdf”をFinderに表示",
+  "identifier": "_recentItemRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "サーバ",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "メニューを消去",
+  "identifier": "_clearRecentItemsRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "強制終了…",
+  "identifier": "_forceQuitPanelRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストエディットを強制終了",
+  "identifier": "_forceQuitRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スリープ",
+  "identifier": "_sleepRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "再起動…",
+  "identifier": "_restartRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "再起動",
+  "identifier": "_restartNowRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "システム終了…",
+  "identifier": "_shutDownRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "システム終了",
+  "identifier": "_shutDownNowRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ロック画面",
+  "identifier": "_lockScreenRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "kuniをログアウト…",
+  "identifier": "_logOutRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "kuniをログアウト",
+  "identifier": "_logOutNowRequested:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "テキストエディット",
+  "identifier": "_NS:838",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   44.0,
+   0.0
+  ],
+  "size": [
+   129.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:842",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストエディットについて",
+  "identifier": "_NS:211",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:846",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "設定…",
+  "identifier": "_NS:508",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:847",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "サービス",
+  "identifier": "_NS:848",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:852",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "Claude に送る",
+  "identifier": "_processRequest:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "Claude に聞く",
+  "identifier": "_processRequest:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ここで新しい Claude Code セッション",
+  "identifier": "_processRequest:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "サービス設定…",
+  "identifier": "_configureServicesMenu:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:857",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストエディットを非表示",
+  "identifier": "_NS:515",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ほかを非表示",
+  "identifier": "_NS:529",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべてを表示",
+  "identifier": "_NS:535",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:858",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストエディットを終了",
+  "identifier": "_NS:522",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "終了（ほかのウインドウは保持）",
+  "identifier": "NSAlternateQuitMenuItem",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "ファイル",
+  "identifier": "_NS:860",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   173.0,
+   0.0
+  ],
+  "size": [
+   69.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:864",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "新規",
+  "identifier": "_NS:344",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "開く…",
+  "identifier": "_NS:331",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "最近使った項目を開く",
+  "identifier": "_NS:868",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:872",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "メニューを消去",
+  "identifier": "clearRecentDocuments:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:877",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "閉じる",
+  "identifier": "_NS:430",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべてを閉じる",
+  "identifier": "closeAll:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "保存",
+  "identifier": "_NS:358",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "別名で保存…",
+  "identifier": "_NS:351",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "複製",
+  "identifier": "duplicateDocument:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "名称変更…",
+  "identifier": "renameDocument:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "移動…",
+  "identifier": "moveDocument:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "バージョンを戻す",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "書類なし",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:878",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "<<Import From Device - unlocalized>>",
+  "identifier": "NSMenuItemImportFromDeviceIdentifier",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "PDFとして書き出す…",
+  "identifier": "_NS:704",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "共有",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "書類なし",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:884",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "プロパティを表示",
+  "identifier": "_NS:588",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:885",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ページ設定…",
+  "identifier": "_NS:423",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "プリント…",
+  "identifier": "_NS:416",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "編集",
+  "identifier": "_NS:886",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   242.0,
+   0.0
+  ],
+  "size": [
+   45.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:889",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "取り消す",
+  "identifier": "_NS:449",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "やり直す",
+  "identifier": "_NS:456",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:893",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "カット",
+  "identifier": "_NS:243",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "コピー",
+  "identifier": "_NS:237",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ペースト",
+  "identifier": "_NS:231",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ペーストしてスタイルを合わせる",
+  "identifier": "_NS:581",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "削除",
+  "identifier": "_NS:571",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "単語入力補完",
+  "identifier": "_NS:224",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべてを選択",
+  "identifier": "_NS:217",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:894",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "挿入",
+  "identifier": "_NS:895",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:898",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "改行",
+  "identifier": "_NS:605",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "段落区切り",
+  "identifier": "_NS:611",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "改ページ",
+  "identifier": "_NS:617",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ファイルを添付…",
+  "identifier": "_NS:785",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "リンク…",
+  "identifier": "_NS:623",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:902",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "検索",
+  "identifier": "_NS:903",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:907",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "検索…",
+  "identifier": "_NS:371",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "検索と置換…",
+  "identifier": "_NS:761",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "次を検索",
+  "identifier": "_NS:378",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "前を検索",
+  "identifier": "_NS:384",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "選択部分を検索に使用",
+  "identifier": "_NS:397",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "選択部分へジャンプ",
+  "identifier": "_NS:390",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "行を選択…",
+  "identifier": "_NS:654",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "作文ツール",
+  "identifier": "__NSTextViewContextSubmenuIdentifierWritingTools",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "作文ツールを表示",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "校正",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "書き直し",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "フレンドリーにする",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "プロフェッショナルにする",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "簡潔にする",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "要約する",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "要点を作成する",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "リストにする",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "表にする",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "作文…",
+  "identifier": "showWritingTools:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スペルと文法",
+  "identifier": "_NS:911",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:915",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スペルと文法を表示",
+  "identifier": "_NS:488",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "書類を今すぐチェック",
+  "identifier": "_NS:495",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:919",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "入力中にスペルチェック",
+  "identifier": "_NS:502",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スペルと一緒に文法をチェック",
+  "identifier": "_NS:630",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スペルを自動的に修正",
+  "identifier": "_NS:680",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "自動置換",
+  "identifier": "_NS:920",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:924",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "自動置換を表示",
+  "identifier": "_NS:698",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:928",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スマートコピー/ペースト",
+  "identifier": "_NS:648",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スマート引用符",
+  "identifier": "_NS:642",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スマートダッシュ記号",
+  "identifier": "_NS:668",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スマートリンク",
+  "identifier": "_NS:636",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "データ検出",
+  "identifier": "_NS:722",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストの置換",
+  "identifier": "_NS:674",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "変換",
+  "identifier": "_NS:929",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:933",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "大文字にする",
+  "identifier": "_NS:662",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "小文字にする",
+  "identifier": "_NS:686",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "語頭を大文字にする",
+  "identifier": "_NS:692",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スピーチ",
+  "identifier": "_NS:937",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:941",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "読み上げを開始",
+  "identifier": "_NS:556",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "読み上げを停止",
+  "identifier": "_NS:562",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "自動入力",
+  "identifier": "_NSMenuItemAutoFillIdentifier",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "連絡先…",
+  "identifier": "_handleInsertFromContactsCommand:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "パスワード…",
+  "identifier": "_handleInsertFromPasswordsCommand:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "クレジットカード…",
+  "identifier": "_handleInsertFromCreditCardsCommand:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "音声入力を開始…",
+  "identifier": "startDictation:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "絵文字と記号",
+  "identifier": "orderFrontCharacterPalette:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "フォーマット",
+  "identifier": "_NS:945",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   287.0,
+   0.0
+  ],
+  "size": [
+   93.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:949",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "フォント",
+  "identifier": "_NS:953",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:31",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "フォントパネルを表示",
+  "identifier": "_NS:36",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ボールド",
+  "identifier": "_NS:41",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "イタリック",
+  "identifier": "_NS:46",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "アンダーライン",
+  "identifier": "_NS:51",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "アウトライン",
+  "identifier": "_NS:56",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "強調表示",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "アクセント",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "パープル",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ピンク",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "オレンジ",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ミント",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ブルー",
+  "identifier": "highlight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スタイル…",
+  "identifier": "_NS:64",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:68",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "大きく",
+  "identifier": "_NS:69",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "小さく",
+  "identifier": "_NS:74",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:79",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "カーニング",
+  "identifier": "_NS:80",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:85",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "デフォルト",
+  "identifier": "_NS:89",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "使用しない",
+  "identifier": "_NS:93",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "きつく",
+  "identifier": "_NS:97",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ゆるく",
+  "identifier": "_NS:102",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "リガチャ",
+  "identifier": "_NS:107",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:111",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "デフォルト",
+  "identifier": "_NS:115",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "使用しない",
+  "identifier": "_NS:118",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべて使用",
+  "identifier": "_NS:121",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ベースライン",
+  "identifier": "_NS:125",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:129",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "デフォルト",
+  "identifier": "_NS:133",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "上付き",
+  "identifier": "_NS:136",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "下付き",
+  "identifier": "_NS:140",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "上げる",
+  "identifier": "_NS:144",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "下げる",
+  "identifier": "_NS:148",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "文字の形状",
+  "identifier": "_NS:152",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:156",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "旧字体",
+  "identifier": "_NS:160",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:164",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "カラーパネルを表示",
+  "identifier": "_NS:165",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:170",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スタイルをコピー",
+  "identifier": "_NS:171",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "スタイルをペースト",
+  "identifier": "_NS:176",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキスト",
+  "identifier": "_NS:956",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:960",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左揃え",
+  "identifier": "_NS:261",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "中央揃え",
+  "identifier": "_NS:254",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "両端揃え",
+  "identifier": "_NS:443",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右揃え",
+  "identifier": "_NS:281",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:964",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "文章の方向",
+  "identifier": "_NS:965",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 7,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:969",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "段落",
+  "identifier": "_NS:199",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "デフォルト",
+  "identifier": "_NS:728",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左から右",
+  "identifier": "_NS:734",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右から左",
+  "identifier": "_NS:740",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:973",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "選択部分",
+  "identifier": "_NS:205",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "デフォルト",
+  "identifier": "_NS:746",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左から右",
+  "identifier": "_NS:751",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 8,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右から左",
+  "identifier": "_NS:756",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:974",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ルーラを表示",
+  "identifier": "_NS:296",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ルーラをコピー",
+  "identifier": "_NS:288",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ルーラをペースト",
+  "identifier": "_NS:303",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:975",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "間隔…",
+  "identifier": "_NS:599",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:976",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "リッチテキストにする",
+  "identifier": "_NS:273",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "編集不可にする",
+  "identifier": "_NS:550",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ページサイズで表示",
+  "identifier": "_NS:409",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "行末ハイフン処理をする",
+  "identifier": "_NS:437",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "レイアウトを縦向きにする",
+  "identifier": "_NS:766",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:977",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "リスト…",
+  "identifier": "_NS:710",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "表…",
+  "identifier": "_NS:716",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "表示",
+  "identifier": "_NS:978",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   380.0,
+   0.0
+  ],
+  "size": [
+   45.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:982",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ウインドウの背景を暗くする",
+  "identifier": "_NS:810",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:986",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "実際のサイズ",
+  "identifier": "_NS:803",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "拡大",
+  "identifier": "_NS:772",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "縮小",
+  "identifier": "_NS:779",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:987",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "フルスクリーンにする",
+  "identifier": "_NS:797",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "ウインドウ",
+  "identifier": "_NS:988",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   425.0,
+   0.0
+  ],
+  "size": [
+   81.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:992",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "しまう",
+  "identifier": "_NS:475",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべてをしまう",
+  "identifier": "miniaturizeAll:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "拡大/縮小",
+  "identifier": "_NS:482",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべてを拡大/縮小",
+  "identifier": "zoomAll:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "画面全体に表示",
+  "identifier": "_zoomFill:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "中央に配置",
+  "identifier": "_zoomCenter:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "移動とサイズ変更",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 5,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "2分割",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左",
+  "identifier": "_zoomLeft:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右",
+  "identifier": "_zoomRight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "上",
+  "identifier": "_zoomTop:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "下",
+  "identifier": "_zoomBottom:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "4分割",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左上",
+  "identifier": "_zoomTopLeft:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右上",
+  "identifier": "_zoomTopRight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左下",
+  "identifier": "_zoomBottomLeft:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右下",
+  "identifier": "_zoomBottomRight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "配置",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左と右",
+  "identifier": "_zoomLeftAndRight:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "左と4分割",
+  "identifier": "_zoomLeftThreeUp:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右と左",
+  "identifier": "_zoomRightAndLeft:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "右と4分割",
+  "identifier": "_zoomRightThreeUp:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "上と下",
+  "identifier": "_zoomTopAndBottom:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "上と4分割",
+  "identifier": "_zoomTopThreeUp:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "下と上",
+  "identifier": "_zoomBottomAndTop:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "下と4分割",
+  "identifier": "_zoomBottomThreeUp:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "4分割",
+  "identifier": "_zoomQuarters:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 6,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "前のサイズに戻す",
+  "identifier": "_zoomUntile:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "フルスクリーンのタイル表示",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": null,
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ウインドウをセットから削除",
+  "identifier": "_removeWindowFromStageManagerSet:",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "",
+  "identifier": "_NS:996",
+  "description": null,
+  "value": null,
+  "enabled": false,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "すべてを手前に移動",
+  "identifier": "_NS:469",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "ウインドウを整理",
+  "identifier": "alternateArrangeInFront:",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 2,
+  "role": "AXMenuBarItem",
+  "subrole": null,
+  "title": "ヘルプ",
+  "identifier": "_NS:998",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   506.0,
+   0.0
+  ],
+  "size": [
+   57.0,
+   33.0
+  ]
+ },
+ {
+  "depth": 3,
+  "role": "AXMenu",
+  "subrole": null,
+  "title": null,
+  "identifier": "_NS:1002",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ },
+ {
+  "depth": 4,
+  "role": "AXMenuItem",
+  "subrole": null,
+  "title": "テキストエディットヘルプ",
+  "identifier": "_NS:541",
+  "description": null,
+  "value": null,
+  "enabled": true,
+  "position": [
+   0.0,
+   956.0
+  ],
+  "size": [
+   0.0,
+   0.0
+  ]
+ }
+]

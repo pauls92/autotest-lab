@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+.env
+*.log
+# テスト実行時の成果物
+screenshots/
+reports/
+allure-results/
+
+# クローラーのスクリーンショット（サイズが大きい）
+macos/crawl/*/shots/
+qap_analysis_out/

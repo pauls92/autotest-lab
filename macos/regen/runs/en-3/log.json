@@ -1,0 +1,184 @@
+{
+ "testcase": "TE-PRINT-001",
+ "testcase_sha256": "a0cf5c31c6554b1c8e357fe9e4c1401d5851c3b81e68b28d1aecf25e7b2ad085",
+ "script": "te_print_en.py",
+ "script_sha256": "884d885a87f123b28f1ca8a5f58528cd79d27c50f8404da8ba00a23cca3c8832",
+ "lang": "en",
+ "started": "2026-10-15T23:56:39",
+ "steps": [
+  {
+   "no": 1,
+   "screen": "開始",
+   "action": "押す",
+   "target": "新規書類",
+   "value": null,
+   "expect": null,
+   "used": {
+    "identifier": "NewDocumentButton"
+   },
+   "result": "OK"
+  },
+  {
+   "no": 2,
+   "screen": "書類",
+   "action": "入力",
+   "target": "本文",
+   "value": "回帰テスト",
+   "expect": null,
+   "used": {
+    "role": "AXTextArea",
+    "within": "document"
+   },
+   "result": "OK"
+  },
+  {
+   "no": 3,
+   "screen": "書類",
+   "action": "確認",
+   "target": "本文",
+   "value": null,
+   "expect": "回帰テスト",
+   "used": {
+    "role": "AXTextArea",
+    "within": "document"
+   },
+   "actual": "回帰テスト",
+   "result": "OK"
+  },
+  {
+   "no": 4,
+   "screen": "書類",
+   "action": "キー",
+   "target": "印刷を開く",
+   "value": "cmd+p",
+   "expect": null,
+   "used": "cmd+p",
+   "result": "OK"
+  },
+  {
+   "no": 5,
+   "screen": "印刷シート",
+   "action": "入力",
+   "target": "部数",
+   "value": "3",
+   "expect": null,
+   "used": {
+    "role": "AXTextField",
+    "title": "Copies",
+    "within": "sheet"
+   },
+   "result": "OK"
+  },
+  {
+   "no": 6,
+   "screen": "印刷シート",
+   "action": "確認",
+   "target": "部数",
+   "value": null,
+   "expect": "3",
+   "used": {
+    "role": "AXTextField",
+    "title": "Copies",
+    "within": "sheet"
+   },
+   "actual": "3",
+   "result": "OK"
+  },
+  {
+   "no": 7,
+   "screen": "印刷シート",
+   "action": "押す",
+   "target": "横向き",
+   "value": null,
+   "expect": null,
+   "used": {
+    "role": "AXRadioButton",
+    "title": " Landscape",
+    "within": "sheet"
+   },
+   "result": "OK"
+  },
+  {
+   "no": 8,
+   "screen": "印刷シート",
+   "action": "確認",
+   "target": "横向き",
+   "value": null,
+   "expect": "1",
+   "used": {
+    "role": "AXRadioButton",
+    "title": " Landscape",
+    "within": "sheet"
+   },
+   "actual": "1",
+   "result": "OK"
+  },
+  {
+   "no": 9,
+   "screen": "印刷シート",
+   "action": "確認",
+   "target": "縦向き",
+   "value": null,
+   "expect": "0",
+   "used": {
+    "role": "AXRadioButton",
+    "title": " Portrait",
+    "within": "sheet"
+   },
+   "actual": "0",
+   "result": "OK"
+  },
+  {
+   "no": 10,
+   "screen": "印刷シート",
+   "action": "押す",
+   "target": "キャンセル",
+   "value": null,
+   "expect": null,
+   "used": {
+    "role": "AXButton",
+    "title": "Cancel",
+    "within": "sheet"
+   },
+   "result": "OK"
+  },
+  {
+   "no": 11,
+   "screen": "書類",
+   "action": "確認",
+   "target": "印刷シート",
+   "value": null,
+   "expect": "閉じている",
+   "actual": "閉じている",
+   "result": "OK"
+  },
+  {
+   "no": 12,
+   "screen": "書類",
+   "action": "押す",
+   "target": "閉じる",
+   "value": null,
+   "expect": null,
+   "used": {
+    "role": "AXButton",
+    "subrole": "AXCloseButton",
+    "within": "document"
+   },
+   "result": "OK"
+  },
+  {
+   "no": 13,
+   "screen": "保存の確認",
+   "action": "押す",
+   "target": "保存しない",
+   "value": null,
+   "expect": null,
+   "used": {
+    "role": "AXButton",
+    "title": "Delete"
+   },
+   "result": "OK"
+  }
+ ],
+ "result": "PASS"
+}
