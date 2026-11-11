@@ -12,7 +12,7 @@ from slidekit import (Deck, st, W, M, INK, INK2, INK3, CYAN, CYAN_S, MAG, MAG_S,
 
 OUT = os.path.join(HERE, "gui_automation_landscape.pdf")
 FOOT = "autotest-lab ・ GUI自動操作の技術 一般論のまとめ（2026-11）"
-TOTAL = 11
+TOTAL = 14
 CW = W - 2 * M  # 864
 
 d = Deck(OUT, "GUI自動操作の技術 比較", FOOT, TOTAL)
@@ -98,6 +98,71 @@ rows = [hdr,
          "内部は上のいずれかの仕組み", "書き手を選ばない。中身が独自形式だとAIや外部ツールと連携しにくい"],
         ]
 d.table(rows, M, y, wid, size=9.5)
+d.end()
+
+# 準備の手間と実行の速さ
+hdr6 = ["ツール", "必要なマシン", "入れるもの・準備", "準備", "速さ", "速さの理由"]
+wid6 = [104, 170, 250, 50, 50, 240]
+legend = ("準備：◎ 1台にインストールするだけ　○ 少し手間　△ 複数の部品や署名などが要る　"
+          "／　速さ：◎ 速い　○ 普通　△ 遅め　× 遅い　（一般的な目安。アプリや画面によって変わる）")
+
+y = d.slide("準備の手間と実行の速さ 1：Web とモバイル", "比較表（追加）")
+rows = [hdr6,
+        ["Selenium", "1台（Windows・Mac・Linux）", "言語のライブラリ。ブラウザのドライバは自動で取得（Selenium Manager）",
+         "◎", "○", "1操作ごとにHTTPでやりとりする"],
+        ["Playwright", "1台（Windows・Mac・Linux）", "pip install と playwright install（ブラウザを取得）。Dockerイメージもある",
+         "◎", "◎", "ブラウザと常時接続。自動待機で無駄な待ちが少ない。並列実行が標準"],
+        ["Cypress", "1台", "npm install", "◎", "○〜◎", "ブラウザの中で動く"],
+        ["Espresso", "1台＋Android端末かエミュレーター", "Android Studio・SDK。アプリのソースとビルドが必要",
+         "○", "◎", "アプリと同じプロセスで動き、画面が落ち着くのを自動で待つ"],
+        ["UI Automator", "1台＋Android端末かエミュレーター", "Android SDK。テスト用アプリのビルドが必要",
+         "○", "○", "アクセシビリティ経由"],
+        ["XCUITest", "Mac＋iOS端末かシミュレーター", "Xcode。実機ではApple Developerの署名が必要",
+         "△", "○", "アプリと別プロセス。起動は遅め"],
+        ["Appium", "テスト実行PC＋Appiumサーバー＋端末（iOSはMacが必須）",
+         "Node.js、Appium本体、OSごとのドライバ。iOS実機は署名、AndroidはSDK。バージョンの組み合わせ管理",
+         "△", "△", "HTTP越しに、さらにOSのドライバを経由する二段構え"],
+        ["Maestro", "1台＋端末（iOSはMac）", "CLI（Java）", "○", "○", "フローを一手ずつ解釈し、自動で待つ"],
+        ]
+h = d.table(rows, M, y, wid6, size=9.5)
+d.para(legend, M, y - h - 8, CW, st(9.5, INK3))
+d.end()
+
+y = d.slide("準備の手間と実行の速さ 2：デスクトップほか", "比較表（追加）")
+rows = [hdr6,
+        ["pywinauto", "Windows 1台", "pip install", "◎", "○", "UIAは部品が多い画面で遅くなる"],
+        ["FlaUI", "Windows 1台", "NuGet で追加", "◎", "○", "UIA（Win32の直接呼び出しは速い）"],
+        ["WinAppDriver", "Windows 1台", "WinAppDriver本体と開発者モード", "○", "△〜○", "HTTP越しにUIAを使う"],
+        ["macOS AX API", "Mac 1台", "pyobjc。アクセシビリティの権限を許可", "○", "○", "OSの仕組みを直接呼ぶ"],
+        ["Appium Mac2", "Mac 1台", "Xcode、Appium、Mac2ドライバ", "△", "△", "HTTP越しにXCTestを経由"],
+        ["AppleScript / JXA", "Mac 1台", "追加なし（権限の許可のみ）", "◎", "△", "1操作ごとにアプリ間でやりとりする"],
+        ["PyAutoGUI / SikuliX", "1台（画面が見えている必要あり）", "pip install など。解像度・画面ロックに注意", "○", "△",
+         "画面全体から画像を探す"],
+        ["AIのcomputer use", "1台＋AIのAPI", "APIキーと実行環境", "◎", "×",
+         "1操作ごとにスクリーンショットをAIが判断（数秒）"],
+        ]
+h = d.table(rows, M, y, wid6, size=9.5)
+d.para(legend, M, y - h - 8, CW, st(9.5, INK3))
+d.end()
+
+y = d.slide("準備を軽くする、一般的な手段", "示唆（一般論）")
+d.box(M, y - 4, CW, 56, fill=YEL_S, accent=YEL)
+d.para("<b>どのツールでも変えられない制約</b>：iOSのアプリを動かすにはMac（Xcode）が要る。"
+       "それ以外の「台数」や「つなぐ手順」は、仕組みの選び方でかなり減らせる。",
+       M + 18, y - 16, CW - 34, st(12, INK))
+tips = [
+    ("1台で完結させる", "テストを書く場所と動かす場所を同じPCにする。Web・Windows・Macのアプリは、多くのツールで1台で済む。"),
+    ("コンテナで配る", "ツールとブラウザを丸ごとイメージにする（PlaywrightのDockerイメージなど）。版の組み合わせ違いが起きない。"),
+    ("自動で取得させる", "ドライバやブラウザを、ツールが版に合わせて自動で取ってくる（Selenium Manager、playwright install）。"),
+    ("クラウドの端末を借りる", "実機やブラウザをクラウドで借りる（各社の端末クラウド）。手元のMacや端末の管理が不要になる。"),
+    ("シミュレーターを使う", "日々の回帰テストはエミュレーター・シミュレーターで回し、実機は節目だけにする。"),
+    ("準備をスクリプト化する", "インストールから接続確認までを1コマンドにし、CIで毎回同じ手順を再現する。"),
+]
+tw = (CW - 2 * 16) / 3
+for i, (hd, bd) in enumerate(tips):
+    r, col = divmod(i, 3)
+    d.card(M + col * (tw + 16), y - 76 - r * 150, tw, 136, hd, bd, accent=CYAN, fill=CYAN_S,
+           head_size=14, body_size=11)
 d.end()
 
 # 5. AIエージェントとの相性
