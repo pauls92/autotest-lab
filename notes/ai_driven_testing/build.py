@@ -12,7 +12,7 @@ from slidekit import (Deck, st, W, M, INK, INK2, INK3, CYAN, CYAN_S, MAG, MAG_S,
 
 OUT = os.path.join(HERE, "ai_driven_testing.pdf")
 FOOT = "autotest-lab ・ AIドリブンテストの適用範囲 一般論のまとめ（2026-11）"
-TOTAL = 13
+TOTAL = 14
 CW = W - 2 * M
 
 d = Deck(OUT, "AIドリブンテストの適用範囲", FOOT, TOTAL)
@@ -234,7 +234,31 @@ rows = [hdr,
 d.table(rows, M, y, wid, size=10)
 d.end()
 
-# 12. 配分のイメージ
+# 12. ARM版アプリのテスト環境
+y = d.slide("ARM版アプリのテスト環境", "深掘り：仮想化ソフト")
+d.box(M, y - 4, CW, 50, fill=YEL_S, accent=YEL)
+d.para("<b>原則</b>：仮想マシンが実用的な速さで動くのは、CPUの種類が同じときだけ。x64のPCでARMのOSを動かすには"
+       "命令をソフトで翻訳するエミュレーション（QEMUなど）が要り、何倍も遅くなる。",
+       M + 18, y - 14, CW - 34, st(12, INK))
+hdr = ["用意するマシン", "仮想マシン", "ARM版アプリ", "x64版アプリ", "注意"]
+wid = [190, 200, 90, 160, 224]
+rows = [hdr,
+        ["x64のWindows PC", "○ x64版のOSだけ（VMware、Hyper-Vなど）", "× エミュレーションは遅く非実用",
+         "◎", "ARM版のテストはできない"],
+        ["ARMのWindows PC（Snapdragonなど）", "○ Hyper-VでARM版Windowsの仮想マシン", "◎",
+         "○ OSに組み込みの翻訳で動く", "Hyper-VはUSB機器を仮想マシンに渡しにくい"],
+        ["Apple SiliconのMac＋VMware Fusion／Parallels", "◎ ARM版Windows 11の仮想マシン", "◎",
+         "○ 仮想マシンの中のWindowsが翻訳", "x64版のWindowsは動かない。USB機器は渡せる"],
+        ["クラウドのARMの仮想マシン", "—", "○", "○", "USB機器はつなげない。提供状況と組織のルールを確認"],
+        ]
+h = d.table(rows, M, y - 66, wid, size=10)
+d.box(M, y - 66 - h - 14, CW, 70, fill=BG, accent=INK)
+d.para("<b>「ARMのPCでx64版も確かめられる」とは</b>：ARM版Windows自体の機能で、実機でも仮想マシンでも同じ。<br/>"
+       "<b>ただし</b>：周辺機器のドライバは翻訳の対象外で、ARM64版が必要。x64版アプリの最終確認はx64の環境で行う。",
+       M + 20, y - 66 - h - 26, CW - 40, st(11.5, INK))
+d.end()
+
+# 13. 配分のイメージ
 y = d.slide("テストの配分のイメージ", "進め方")
 layers = [
     ("AIの環境（A）", "設計・実装・実行・分析をAIが回す。件数の大半はここ。新しい機能や画面の変更にすぐ追従する",
