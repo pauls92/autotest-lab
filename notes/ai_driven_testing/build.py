@@ -12,7 +12,7 @@ from slidekit import (Deck, st, W, M, INK, INK2, INK3, CYAN, CYAN_S, MAG, MAG_S,
 
 OUT = os.path.join(HERE, "ai_driven_testing.pdf")
 FOOT = "autotest-lab ・ AIドリブンテストの適用範囲 一般論のまとめ（2026-11）"
-TOTAL = 14
+TOTAL = 15
 CW = W - 2 * M
 
 d = Deck(OUT, "AIドリブンテストの適用範囲", FOOT, TOTAL)
@@ -258,7 +258,33 @@ d.para("<b>「ARMのPCでx64版も確かめられる」とは</b>：ARM版Window
        M + 20, y - 66 - h - 26, CW - 40, st(11.5, INK))
 d.end()
 
-# 13. 配分のイメージ
+# 13. 現実的な組み合わせ
+y = d.slide("テスト環境の現実的な組み合わせ", "深掘り：仮想化ソフト")
+bw = (CW - 20) / 2
+d.card(M, y - 4, bw, 140, "x64：Windows PC＋VMware Workstation Pro",
+       "・x64版の各OSを仮想マシンで用意。スナップショットで準備と復元が速い<br/>"
+       "・USB機器を仮想マシンに渡せる。ブリッジ接続でテスト用LANにも参加できる<br/>"
+       "・件数の大半をここでAIと回す<br/>"
+       "・Linux（KVM）は不要。より実機に近づけたいときの選択肢",
+       accent=CYAN, fill=CYAN_S, head_size=14, body_size=11)
+d.card(M + bw + 20, y - 4, bw, 140, "ARM：次のどちらか",
+       "<b>A. Apple SiliconのMac＋VMware Fusion</b><br/>ARM版Windows 11を仮想マシンで動かす。USB機器も渡せる<br/>"
+       "<b>B. ARMのWindows PC（Snapdragonなど）を実機のまま使う</b><br/>"
+       "お客様の環境に最も近い。仮想マシンを使うならHyper-V（USBは弱い）<br/>"
+       "・ARMは代表的な確認に絞る",
+       accent=GRN, fill=GRN_S, head_size=14, body_size=11)
+d.box(M, y - 160, CW, 60, fill=BG, accent=INK)
+d.para("<b>スペックの目安</b>：CPUより<b>メモリ</b>が効く。仮想マシンを1〜2台動かすなら32GBあると安心。"
+       "AIエージェントは考える部分がクラウドで動くため、手元のPCの性能はあまり問わない。",
+       M + 20, y - 172, CW - 40, st(11.5, INK))
+d.box(M, y - 236, CW, 76, fill=YEL_S, accent=YEL)
+d.para("<b>補足：Dockerのコンテナは、このGUIテストには不向き</b><br/>"
+       "コンテナは主にLinuxで動き、Windowsのコンテナにも画面（デスクトップ）が無いため、WindowsのGUIアプリやUSB機器のテストはできない。"
+       "Webのテスト（ブラウザごとコンテナにする）や、テストの道具を配る用途には向いている。",
+       M + 20, y - 248, CW - 40, st(11, INK))
+d.end()
+
+# 14. 配分のイメージ
 y = d.slide("テストの配分のイメージ", "進め方")
 layers = [
     ("AIの環境（A）", "設計・実装・実行・分析をAIが回す。件数の大半はここ。新しい機能や画面の変更にすぐ追従する",
