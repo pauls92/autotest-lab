@@ -13,7 +13,7 @@ from reportlab.platypus import Paragraph  # noqa: E402
 
 OUT = os.path.join(HERE, "test_team_roles.pdf")
 FOOT = "autotest-lab ・ AI時代のテストチームの役割 一般論のまとめ（2026-11）"
-TOTAL = 10
+TOTAL = 13
 CW = W - 2 * M
 
 d = Deck(OUT, "AI時代のテストチームの役割", FOOT, TOTAL)
@@ -277,7 +277,103 @@ rows = [hdr,
 d.table(rows, M, y, wid, size=9.5)
 d.end()
 
-# 9. 物理を技術で補う
+# 9. AIエージェントのPCから、テストPCを動かす
+y = d.slide("AIエージェントのPCから、テストPCを動かす", "図解：設備の全体図（続き）")
+il.desktop(c, 52, 206, s=0.75, app_title="AIエージェント")
+text(131, 190, "AIエージェントのPC", 11, INK, "c")
+text(131, 175, "スクリプトを動かし、AIが判断する", 9, INK3, "c")
+TX = 470; BX = 640; BW = W - M - BX
+targets = [
+    (406, "テストPC（実機）", "操作を受け付ける係<br/>Appiumサーバー、WinAppDriver、MCPサーバーなど"),
+    (300, "仮想マシン", "仮想化ソフトの操作コマンド<br/>復元・起動・中でプログラムを実行（VMwareのvmrunなど）"),
+    (194, "スマホ・タブレット", "端末をつないだPCのAppiumサーバー<br/>（iOSは端末をMacにつなぐ）"),
+]
+for i, (ty, title, desc) in enumerate(targets):
+    text(TX, ty, title, 10.5)
+    if i == 0:
+        il.desktop(c, TX, ty - 86, s=0.45, app_title="テスト対象")
+    elif i == 1:
+        dashed(TX, ty - 92, 120, 82, "")
+        icons.draw(c, "pc", TX + 36, ty - 50, 30, INK2); icons.draw(c, "pc", TX + 84, ty - 50, 30, INK2)
+    else:
+        il.desktop(c, TX, ty - 86, s=0.38, app_title="Appium")
+        il.phone(c, TX + 92, ty - 84, s=1.0)
+        wire(TX + 80, ty - 60, TX + 92, ty - 60, INK3, 1.5, (2, 2))
+    label_box(BX, ty + 4, BW, 58, desc, MAG_S, size=10, accent=MAG)
+    d.arrow(214, 262, TX - 10, ty - 40, color=CYAN)
+text(330, 350, "命令がネットワーク越しに届く", 10, CYAN, "c")
+text(330, 160, "画面の部品の木・スクリーンショット・", 9.5, INK3, "c")
+text(330, 146, "結果がAIのPCに戻る", 9.5, INK3, "c")
+d.box(M, 96, CW, 50, fill=YEL_S, accent=YEL)
+d.para("<b>条件</b>：AIのPCとテストPCが、ネットワークで通信できること。テストPCでは、ユーザーがログインした画面で「係」を常駐させる"
+       "（SSHなどで裏側から実行すると画面が無く、GUIを操作できない）。画面ロックとスリープは切る。",
+       M + 18, 88, CW - 34, st(10.5, INK))
+d.end()
+
+# 10. 仮想マシンのネットワークの3つの形
+y = d.slide("古いOSの仮想マシンを、AIのPCで動かすと安全？", "図解：ネットワークの形")
+BAR = 400
+d.box(M, BAR + 22, CW, 30, fill=GRN_S, accent=GRN)
+text(W / 2, BAR + 2, "組織のネットワーク（AIを使える環境）", 11, GRN, "c")
+pw = (CW - 2 * 20) / 3
+modes = [
+    ("① ブリッジ接続", "×", "仮想マシンも組織のネットワークの一台になる。古いOSを直接つなぐのと同じ。"),
+    ("② NAT接続", "×〜△", "ホストを経由して外に出られる。古いOSから組織のネットワークに届いてしまう。"),
+    ("③ ホストオンリー接続", "○", "仮想マシンはホストとしか通信できない。組織のネットワークからも見えない。隔離するならこの形。"),
+]
+for i, (title, mark, desc) in enumerate(modes):
+    px = M + i * (pw + 20)
+    hx, hw, hy0, hy1 = px + 10, pw - 20, 196, 340
+    c.setFillColor(BG); c.setStrokeColor(INK3); c.setLineWidth(1)
+    c.roundRect(hx, hy0, hw, hy1 - hy0, 8, fill=1, stroke=1)
+    text(hx + 10, hy1 - 16, "AIのPC（ホスト）", 9.5, INK2)
+    up = hx + hw - 40
+    wire(up, hy1, up, BAR - 8, GRN, 3)
+    label_box(hx + hw - 92, hy1 - 26, 82, 30, "AIエージェント", CYAN_S, size=9)
+    vx, vw, vy0, vy1 = hx + 16, 110, 212, 268
+    label_box(vx, vy1, vw, vy1 - vy0, "古いOSの<br/>仮想マシン", YEL_S, size=9.5, accent=YEL)
+    vtop = vx + 30
+    if i == 0:
+        wire(vtop, vy1, vtop, BAR - 8, MAG, 3)
+        text(vtop + 6, 360, "直接参加", 9, MAG)
+    elif i == 1:
+        wire(vtop, vy1, vtop, 276, MAG, 2, (4, 3)); wire(vtop, 276, up, 276, MAG, 2, (4, 3)); wire(up, 276, up, 284, MAG, 2, (4, 3))
+        text(vtop + 6, 280, "ホストを経由", 9, MAG)
+    else:
+        wire(vx + vw, 250, hx + hw - 51, 250, GRN, 2); wire(hx + hw - 51, 250, hx + hw - 51, 284, GRN, 2)
+        text(vx + vw + 6, 236, "ホストとだけ", 9, GRN)
+    text(px + pw / 2, 176, "%s　%s" % (title, mark), 12, INK, "c")
+    d.para(desc, px + 10, 162, pw - 20, st(10, INK2))
+d.box(M, 96, CW, 50, fill=YEL_S, accent=YEL)
+d.para("<b>「VMwareで動かしているから安全」ではない</b>。安全かどうかはネットワークの形で決まる。隔離するならホストオンリー接続にし、"
+       "共有フォルダ・クリップボードの共有を切り、仮想化ソフトを最新に保つ。最終判断は組織のセキュリティ部門。",
+       M + 18, 88, CW - 34, st(10.5, INK))
+d.end()
+
+# 11. つなぎ目の選択肢
+y = d.slide("AIの環境と、古いOS・テスト用LANをつなぐ選択肢", "整理")
+hdr = ["選択肢", "古いOSの隔離", "USBの機器", "ネットワークの機器", "注意"]
+wid = [230, 90, 80, 110, 354]
+rows = [hdr,
+        ["A. AIのPCで、ホストオンリー接続の仮想マシン", "○", "○ USBを渡す", "×",
+         "テスト用LANの機器には届かない。共有機能を切る"],
+        ["B. テスト用LAN専用の差し口に、仮想マシンだけをつなぐ", "△", "○", "○",
+         "1台が両方のネットワークにつながる形。承認のハードルが高い"],
+        ["C. 管理されたつなぎ目（ファイアウォールで決まった通信だけ許可）", "○", "—", "○",
+         "AIのPCからテスト用LANへ、操作に使う通信だけを通す。正攻法だが、設計と承認が要る"],
+        ["D. 手動で持ち込む", "◎", "○", "○", "安全。往復に人手と時間がかかる"],
+        ["E. テスト用LANの中にAIを置く", "○", "○", "○",
+         "ローカルLLMなど。GPUマシンとモデルの持ち込み、精度が課題"],
+        ]
+h = d.table(rows, M, y, wid, size=10)
+d.box(M, y - h - 16, CW, 72, fill=BG, accent=INK)
+d.para("<b>セキュリティ部門に確かめる質問の例</b><br/>"
+       "・ホストオンリー接続の仮想マシンは「ネットワークにつないだ」とみなすか　・2つのネットワークに足を持つPCは許されるか<br/>"
+       "・区間をまたぐ決まった通信の許可を申請できるか　・AIに送る画面やログの扱い（含まれる情報の範囲）",
+       M + 20, y - h - 28, CW - 40, st(11, INK))
+d.end()
+
+# 12. 物理を技術で補う
 y = d.slide("物理的な部分を、技術で補う例", "テスト基盤")
 tips = [
     ("遠隔の電源", "ネットワークから入切できる電源タップで、機器やPCの電源を切り替える。再起動や電源断のテストも自動にできる。"),
@@ -294,7 +390,7 @@ for i, (hd, bd) in enumerate(tips):
            head_size=14, body_size=11)
 d.end()
 
-# 10. まとめ：役割と必要な技術
+# 13. まとめ：役割と必要な技術
 y = d.slide("まとめ：3つの役割と、必要な技術", "まとめ")
 hdr = ["役割", "主な仕事", "必要な技術・知識"]
 wid = [200, 340, 324]
