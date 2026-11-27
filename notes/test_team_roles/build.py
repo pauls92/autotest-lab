@@ -13,7 +13,7 @@ from reportlab.platypus import Paragraph  # noqa: E402
 
 OUT = os.path.join(HERE, "test_team_roles.pdf")
 FOOT = "autotest-lab ・ AI時代のテストチームの役割 一般論のまとめ（2026-11）"
-TOTAL = 8
+TOTAL = 10
 CW = W - 2 * M
 
 d = Deck(OUT, "AI時代のテストチームの役割", FOOT, TOTAL)
@@ -154,7 +154,130 @@ d.para("AIが「書く・動かす・判定する」を速く回せるかは、�
        M, byt - 128, CW, st(12, INK2))
 d.end()
 
-# 7. 物理を技術で補う
+# 7. ネイティブアプリのE2Eテストに必要な設備（全体図）
+import icons  # noqa: E402
+import illustrations as il  # noqa: E402
+
+c = d.c
+JPF = "HeiseiKakuGo-W5"
+
+
+def badge(x, y, n):
+    c.setFillColor(MAG); c.circle(x, y, 9, fill=1, stroke=0)
+    c.setFillColor(PAPER); c.setFont(JPF, 10); c.drawCentredString(x, y - 3.5, str(n))
+
+
+def text(x, y, s, size=10, color=INK, align="l"):
+    c.setFont(JPF, size); c.setFillColor(color)
+    {"l": c.drawString, "c": c.drawCentredString, "r": c.drawRightString}[align](x, y, s)
+
+
+def dashed(x, y, w, h, label):
+    c.saveState(); c.setStrokeColor(CYAN); c.setLineWidth(1.2); c.setDash(4, 3)
+    c.setFillColor(CYAN_S); c.roundRect(x, y, w, h, 6, fill=1, stroke=1); c.restoreState()
+    text(x + w / 2, y + h - 15, label, 9.5, CYAN, "c")
+
+
+def wire(x1, y1, x2, y2, color=CYAN, lw=2, dash=None):
+    c.saveState(); c.setStrokeColor(color); c.setLineWidth(lw)
+    if dash: c.setDash(*dash)
+    c.line(x1, y1, x2, y2); c.restoreState()
+
+
+y = d.slide("ネイティブアプリのE2Eテストに必要な設備", "図解：設備の全体図")
+steps = ["テスト設計", "アプリを受け取る", "環境を用意・復元", "インストール", "機器をつなぐ",
+         "テスト実行", "判定・原因調査", "完了・報告"]
+sw = (CW - 7 * 8) / 8
+for i, s in enumerate(steps):
+    x = M + i * (sw + 8)
+    label_box(x, y + 4, sw, 28, s, INK, size=9.5, color=PAPER)
+    if i < 7:
+        d.arrow(x + sw, y - 10, x + sw + 8, y - 10)
+text(W - M, y - 44, "点線の枠＝シミュレーター・仮想で代替できる　　番号＝次のページの表", 9, INK3, "r")
+
+BUS = 282; top = 372; bot = 74
+wire(BUS, bot, BUS, top, CYAN, 7)
+text(BUS, bot - 16, "テスト用ネットワーク", 10, CYAN, "c"); badge(BUS - 62, bot - 12, 3)
+
+# 左：アプリの置き場、OSイメージ、AIのPC
+icons.draw(c, "server", 84, 340, 40, INK2)
+text(112, 346, "アプリの置き場", 11); text(112, 331, "リリースされたアプリ", 9, INK3); badge(60, 364, 1)
+wire(205, 340, BUS, 340)
+icons.draw(c, "server", 84, 258, 40, INK2)
+text(112, 264, "OSイメージの保管", 11); text(112, 249, "版ごとのイメージ", 9, INK3); badge(60, 282, 2)
+wire(205, 258, BUS, 258)
+il.desktop(c, 54, 92, s=0.6, app_title="AIエージェント")
+text(117, 78, "AIエージェントのPC", 10.5, INK, "c"); text(117, 64, "（司令塔）", 9, INK3, "c"); badge(56, 186, 4)
+wire(180, 150, BUS, 150)
+icons.draw(c, "screencheck", 215, 205, 26, CYAN); icons.draw(c, "magnify", 248, 205, 26, CYAN)
+text(232, 182, "判定・原因調査", 9, CYAN, "c"); badge(205, 228, 9)
+
+# 右上：テスト端末
+RX = 330
+text(RX + 22, 360, "テスト端末（実機）", 10.5); badge(RX + 8, 364, 5)
+il.phone(c, RX + 14, 284, s=1.05); il.phone(c, RX + 66, 284, s=1.05)
+text(RX + 30, 270, "iOS", 9, INK2, "c"); text(RX + 82, 270, "Android", 9, INK2, "c")
+wire(BUS, 315, RX + 10, 315)
+dashed(RX + 128, 270, 140, 100, "シミュレーター")
+il.phone(c, RX + 160, 280, s=0.8); il.phone(c, RX + 214, 280, s=0.8)
+
+# 右中：テストPC
+text(RX + 22, 246, "テストPC（実機）", 10.5); badge(RX + 8, 250, 6)
+il.desktop(c, RX + 8, 160, s=0.48, app_title="テスト対象")
+wire(BUS, 200, RX + 8, 200)
+dashed(RX + 128, 156, 140, 100, "仮想マシン")
+for k, lab in enumerate(["版A", "版B", "版C"]):
+    icons.draw(c, "pc", RX + 160 + k * 38, 200, 26, INK2)
+    text(RX + 160 + k * 38, 176, lab, 8.5, INK3, "c")
+text(RX + 198, 162, "イメージから復元", 8.5, CYAN, "c")
+
+# 右下：接続機器
+text(RX + 22, 134, "接続機器", 10.5); badge(RX + 8, 138, 7)
+il.printer(c, RX + 10, 44, s=0.4)
+wire(BUS, 100, RX + 10, 100)
+wire(RX + 92, 160, RX + 92, 124, INK3, 1.5, (3, 2)); text(RX + 98, 140, "USB", 8.5, INK3)
+dashed(RX + 128, 44, 140, 98, "機器のシミュレーター")
+icons.draw(c, "printer", RX + 198, 82, 40, INK2)
+
+# 最右：物理を補う道具
+TX = RX + 300
+c.setStrokeColor(LINE); c.setLineWidth(1); c.line(TX - 14, 60, TX - 14, 372)
+text(TX, 360, "物理を補う道具", 10.5, MAG)
+tools = [("power", "遠隔の電源・USBの切り替え", 312), ("install", "自動インストール・端末の管理", 252)]
+for kind, lab, yy in tools:
+    icons.draw(c, kind, TX + 16, yy, 30, MAG); text(TX + 38, yy - 4, lab, 9.5)
+il.robot_arm(c, TX, 112, s=0.62)
+text(TX + 90, 168, "ロボット", 10); text(TX + 90, 154, "（ボタン・用紙）", 9, INK3); badge(TX + 80, 182, 8)
+icons.draw(c, "screencheck", TX + 16, 80, 30, MAG); text(TX + 38, 76, "カメラで表示を確認", 9.5)
+d.end()
+
+# 8. 設備と、自動化に必要な技術
+y = d.slide("設備・備品と、自動化に必要な技術", "図解：設備の全体図")
+hdr = ["番号", "設備・備品", "役割", "自動化に必要な技術", "代わりにできるもの"]
+wid = [40, 150, 240, 270, 164]
+rows = [hdr,
+        ["1", "アプリの置き場", "リリースされたアプリを保管し、テスト環境に配る",
+         "CI（自動ビルド）、成果物の保管、署名の管理", "—"],
+        ["2", "OSイメージの保管", "OSの版ごとのイメージを保管し、必要な環境を復元する",
+         "仮想化、イメージの管理、自動の復元", "—"],
+        ["3", "テスト用ネットワーク", "端末・PC・接続機器をつなぐ。分けた環境との受け渡し口",
+         "ネットワークの構築、有線・無線の切り替え", "仮想ネットワーク（一部）"],
+        ["4", "AIエージェントのPC", "テストの設計、実行の指示、判定を回す司令塔",
+         "AIエージェント、自動操作の技術（Appium、Playwrightなど）", "—"],
+        ["5", "テスト端末", "iOS・Androidの実機。どの端末・どのOSで試すかを指定する",
+         "自動インストール（iOSはMac＋Xcode、Androidはadb）、端末の管理", "シミュレーター・エミュレーター"],
+        ["6", "テストPC", "Windows・Macの実機", "仮想化、スナップショットからの復元", "仮想マシン"],
+        ["7", "接続機器", "周辺機器の実機。USB・ネットワーク・無線でつなぐ",
+         "遠隔の電源、USBの切り替え器、機器の一覧（データ）", "機器のシミュレーター"],
+        ["8", "ロボット", "物理ボタンを押す、用紙を置くなど、人の手の代わり", "ロボットの制御、位置合わせ",
+         "人の手（手順書）"],
+        ["9", "カメラ・判定", "画面・表示パネル・出力物を確かめ、失敗の原因を調べる",
+         "画像の比較、文字認識、ログ解析、AIによる判定", "—"],
+        ]
+d.table(rows, M, y, wid, size=9.5)
+d.end()
+
+# 9. 物理を技術で補う
 y = d.slide("物理的な部分を、技術で補う例", "テスト基盤")
 tips = [
     ("遠隔の電源", "ネットワークから入切できる電源タップで、機器やPCの電源を切り替える。再起動や電源断のテストも自動にできる。"),
@@ -171,7 +294,7 @@ for i, (hd, bd) in enumerate(tips):
            head_size=14, body_size=11)
 d.end()
 
-# 8. まとめ：役割と必要な技術
+# 10. まとめ：役割と必要な技術
 y = d.slide("まとめ：3つの役割と、必要な技術", "まとめ")
 hdr = ["役割", "主な仕事", "必要な技術・知識"]
 wid = [200, 340, 324]
